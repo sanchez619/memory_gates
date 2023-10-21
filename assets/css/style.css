@@ -19,7 +19,7 @@ body  {
 
 /*Header Element*/
 header  {
-    background-color: #c9c9c9;
+    background: url("../images/marble_background.jpg") no-repeat center center/cover;
 }
 
 h1  {
