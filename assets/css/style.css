@@ -31,6 +31,25 @@ header a  {
     color: inherit;
 }
 
+nav {
+    position: absolute;
+    background: url("../images/marble_background.jpg") no-repeat center center/cover;
+    width: 100%;
+    display: none;
+}
+
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 /*Main Content*/
 main  {
     min-height: 100vh;
