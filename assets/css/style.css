@@ -20,6 +20,12 @@ body  {
 /*Header Element*/
 header  {
     background: url("../images/marble_background.jpg") no-repeat center center/cover;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1  {
@@ -38,7 +44,7 @@ nav {
     left: 0;
     padding: 0 1rem
     display: none;
-    
+
 }
 
 /* nav toggle */
