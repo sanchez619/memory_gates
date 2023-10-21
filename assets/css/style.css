@@ -4,6 +4,7 @@ header  {
 
 main  {
     background-color: #FCF6BA;
+    min-height: 100vp;
 }
 
 footer  {
