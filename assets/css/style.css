@@ -8,10 +8,16 @@
 body  {
     background-color: #FCF6BA;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header  {
     background-color: #c9c9c9;
+}
+
+main  {
+    min-height: 100vh;
 }
 
 footer  {
