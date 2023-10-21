@@ -23,6 +23,12 @@ main  {
     min-height: 100vh;
 }
 
+#landscape  {
+    height: 500px;
+    width: 100%;
+    background: url("../images/book_landscape.jpg") no-repeat center center/cover;
+}
+
 footer  {
     background-color: #B38728;
     font-family: 'Taviraj', sans-serif;
