@@ -35,7 +35,10 @@ nav {
     position: absolute;
     background: url("../images/marble_background.jpg") no-repeat center center/cover;
     width: 100%;
+    left: 0;
+    padding: 0 1rem
     display: none;
+    
 }
 
 /* nav toggle */
@@ -47,7 +50,7 @@ nav {
     display: none;
 }
 
-.nav-toggle-label {
+.nav-label {
     font-size: 2rem;
 }
 /*Main Content*/
