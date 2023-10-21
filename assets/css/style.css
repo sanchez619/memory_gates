@@ -17,6 +17,7 @@ body  {
     font-family: 'Raleway', sans-serif;
 }
 
+/*Header Element*/
 header  {
     background-color: #c9c9c9;
 }
@@ -30,6 +31,7 @@ header a  {
     color: inherit;
 }
 
+/*Main Content*/
 main  {
     min-height: 100vh;
 }
@@ -39,7 +41,7 @@ main  {
     width: 100%;
     background: url("../images/book_landscape.jpg") no-repeat center center/cover;
 }
-
+/*Footer*/
 footer  {
     background-color: #B38728;
     font-family: 'Taviraj', sans-serif;
