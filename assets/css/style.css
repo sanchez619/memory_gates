@@ -21,6 +21,10 @@ header  {
     background-color: #c9c9c9;
 }
 
+h1  {
+    font-family: 'Taviraj', serif;
+}
+
 main  {
     min-height: 100vh;
 }
