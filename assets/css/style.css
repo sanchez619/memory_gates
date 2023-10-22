@@ -19,7 +19,7 @@ body  {
 
 /*Header Element*/
 header  {
-    background: url("../images/marble_background.jpg") no-repeat center center/cover;
+    background-color: #B38728;
     padding: 0 1rem;
     position: fixed;
     z-index: 98;
@@ -32,6 +32,7 @@ header  {
 
 h1  {
     font-family: 'Taviraj', serif;
+    /* adjusts font-size for chosen font */
     font-size: 24px;
 }
 
@@ -49,7 +50,7 @@ header a  {
 nav {
     position: absolute;
     z-index: 99;
-    background: url("../images/marble_background.jpg") no-repeat center center/cover;
+    background-color: #B38728;
     width: 100%;
     left: 0;
     padding: 0 1rem;
