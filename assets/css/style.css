@@ -9,7 +9,8 @@
 }
 
 body  {
-    background-color: #FCF6BA;
+    background-color: #233142;
+    color: #FACF5A;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,7 +20,8 @@ body  {
 
 /*Header Element*/
 header  {
-    background-color: #3a3a3a;
+    background-color: #19282F;
+    color: #FF5956;
     padding: 0 1rem;
     position: fixed;
     z-index: 98;
@@ -49,7 +51,8 @@ header a  {
 nav {
     position: absolute;
     z-index: 99;
-    background-color: #B38728;
+    background-color: #19282F;
+    color: #FACF5A;
     width: 100%;
     left: 0;
     display: none;
