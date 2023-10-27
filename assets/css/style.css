@@ -19,7 +19,7 @@ body  {
 
 /*Header Element*/
 header  {
-    background-color: #B38728;
+    background-color: #B87328;
     padding: 0 1rem;
     position: fixed;
     z-index: 98;
@@ -60,6 +60,11 @@ nav {
 ul  {
     list-style-type: none;
     text-align: center;
+}
+
+ul li  {
+    border: 1.5px solid #3a3a3a;
+    padding: 5px 0;
 }
 
 /* nav toggle */
