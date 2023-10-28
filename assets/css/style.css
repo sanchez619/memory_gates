@@ -66,6 +66,13 @@ nav {
     padding: 5px 0;
 }
 
+/* emphasises the active website in menu */
+
+.active  {
+    color: #FF5956;
+    font-weight: bold;
+}
+
 /* nav toggle */
 #nav-toggle:checked~nav {
     display: block;
