@@ -43,11 +43,6 @@ header a  {
     color: inherit;
 }
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
 nav {
     position: absolute;
     z-index: 99;
@@ -59,12 +54,14 @@ nav {
     top: 100%;
 }
 
-ul  {
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
     list-style-type: none;
     text-align: center;
 }
 
-ul li  {
+#menu li  {
     border: 1.5px solid #3a3a3a;
     padding: 5px 0;
 }
@@ -95,4 +92,12 @@ main  {
 footer  {
     background-color: #19282F;
     font-family: 'Taviraj', sans-serif;
+}
+
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
