@@ -39,17 +39,17 @@
         <section id="test">
             <form id="user_request" method="post">
                 <label for="first_name">First Name</label>
-                <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+                <input type="text" name="first_name" id="first_name" class="text-line" placeholder="First Name" required>
                 <br>
                 <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+                <input type="text" name="last_name" id="last_name" class="text-line" placeholder="Last Name" required>
                 <br>
                 <label for="e-mail_address">Email Address</label>
-                <input type="email" name="e-mail_address" id="e-mail_address" placeholder="Email Address" required>
+                <input type="email" name="e-mail_address" id="e-mail_address" class="text-line" placeholder="Email Address" required>
                 <br>
                 <!-- User provides broad field of their information usage.-->
                 <label for="request_type">Information Use</label>
-                <select name="request_type" id="request-type" required>
+                <select name="request_type" id="request-type" class="text-line" required>
                     <option value="school">School</option>
                     <option value="business">Business</option>
                     <option value="private">Private</option>
@@ -60,19 +60,19 @@
                 <!-- User describes what the information is and what it is for.-->
                 <label for="description">Please describe the nature of your information.</label>
                 <br>
-                <textarea name="description" id="description" cols="30" rows="6" placeholder="I will use this information for..." required></textarea>
+                <textarea name="description" id="description" cols="20" rows="6" placeholder="I will use this information for..." required></textarea>
                 <br>
                 <!-- User provides own areas of expertises. These would be used to create custom-made mnemonic images for the user.-->
                 <label for="interests">Please describe your own personal strenghts and interests.</label>
                 <br>
-                <textarea name="interests" id="interests" cols="30" rows="6" placeholder="My strenghts and interests are..." required></textarea>
+                <textarea name="interests" id="interests" cols="20" rows="6" placeholder="My strenghts and interests are..." required></textarea>
                 <br>
                 <!-- User uploads a file with a more detailed description of their information.-->
                 <label for="information">Insert an image or word file for your information.</label>
                 <input type="file" name="information" id="information">
                 <br>
-                <input type="submit" value="Request Gate">
-                <input type="reset" value="Begin Anew">
+                <input type="submit" value="Request Gate" class="form-button">
+                <input type="reset" value="Begin Anew" class="form-button">
         </section>
     </main>
     <!--Footer Element-->
