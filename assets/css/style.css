@@ -95,6 +95,13 @@ main  {
     width: 100%;
     background: url("../images/torii_1920.jpg") no-repeat center center/cover;
 }
+
+/* About Page */
+
+#m_techniques img {
+    width: 100vw;
+}
+
 /*Footer*/
 footer  {
     background-color: #19282F;
