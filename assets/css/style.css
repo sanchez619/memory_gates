@@ -107,7 +107,7 @@ main  {
 #mountain {
     height: 640px;
     width: 100%;
-    background: url("../images/mountain_1920.jpg") no-repeat center center/cover;
+    background: url("../images/mountain_portable.png") no-repeat center center/cover;
 }
 
 /*Footer*/
