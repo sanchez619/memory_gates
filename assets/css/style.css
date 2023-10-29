@@ -99,7 +99,7 @@ main  {
 /* About Page */
 
 #m_techniques img {
-    width: 100vw;
+    width: 100vw; /* id over class selector */
 }
 
 /*Footer*/
