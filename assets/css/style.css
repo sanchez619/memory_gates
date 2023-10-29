@@ -105,18 +105,15 @@ main  {
 /* Request (Build a Gate) Page */
 
 #mountain {
-    height: 640px;
+    height: 653px;
     width: 100%;
     background: url("../images/mountain_portable.png") no-repeat center center/cover;
-    
+    margin-top : 40px;
+    margin-bottom: 125px;
+    padding: 20px 10% 0 10%;
+    flex: 1 0 auto;
 }
 
-#test  {
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-}
 #user_request  {
     background-color: rgba(25, 40, 47, 0.6);
     padding: 20px;    
