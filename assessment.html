@@ -69,14 +69,38 @@
 
         </section>
         <section id="statement">
-            <h2 id="h-statement">Conquer your mind!</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <form id="user_request" method="get">
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" required>
+                <br>
+                <label for="e-mail_address">Email Address</label>
+                <input type="email" name="e-mail_address" id="e-mail_address" required>
+                <br>
+                <label for="request_type">Information Use</label>
+                <select name="request_type" id="request-type" aria-placeholder="Use for..." required>
+                    <option value="school">School</option>
+                    <option value="business">Business</option>
+                    <option value="private">Private</option>
+                    <option value="performance">Performance
+                </select>/option>
+                <option value="other">Other</option>
+                </select>
+                <label for="description">Please describe the nature of your information.</label>
+                <br>
+                <textarea name="description" id="description" cols="30" rows="6" required></textarea>
+                <br>
+                <label for="interests">Please describe your own personal strenghts and interests.</label>
+                <br>
+                <textarea name="interests" id="interests" cols="30" rows="6" required></textarea>
+                <br>
+                <label for="information">Insert an image or word file for your information.</label>
+                <input type="file" name="information" id="information">
+                <br>
+                <input type="submit" value="Request Gate">
+                <input type="reset" value="Begin Anew">
         </section>
     </main>
     <!--Footer Element-->
