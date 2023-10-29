@@ -102,6 +102,14 @@ main  {
     width: 100vw; /* id over class selector */
 }
 
+/* Request (Build a Gate) Page */
+
+#mountain {
+    height: 640px;
+    width: 100%;
+    background: url("../images/mountain_1920.jpg") no-repeat center center/cover;
+}
+
 /*Footer*/
 footer  {
     background-color: #19282F;
