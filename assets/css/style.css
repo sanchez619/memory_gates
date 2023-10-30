@@ -229,7 +229,11 @@ footer  {
     #services img  {
         width: 50vw;  /* vw instead of percent as it does adapt to the screen */
         border: 5px inset #FACF5A;
-        padding: 20px; 
+        padding: 20px;
+    }
+
+    .explanation-box  {
+        padding: 10px 0 0 2vw;
     }
 }
 
