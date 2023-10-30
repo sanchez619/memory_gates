@@ -197,10 +197,19 @@ footer  {
         display: block;
         position: relative;
         width: fit-content;
-        padding-right: 1em;
+        padding-right: 10px;
     }
 }
 
 #menu {
     display: flex;
+}
+
+#menu > li {
+    padding: 0 5px;
+}
+
+/*Removal of Menu checkbox on larger screens*/
+.nav-label  {
+    display: none;
 }
