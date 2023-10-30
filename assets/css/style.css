@@ -230,6 +230,7 @@ footer  {
         width: 50vw;  /* vw instead of percent as it does adapt to the screen */
         border: 5px inset #FACF5A;
         padding: 20px;
+        margin-top: 10px; /* in place of margin to keep frame effect */
     }
 
     .explanation-box  {
