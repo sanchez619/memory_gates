@@ -99,10 +99,11 @@ main  {
 
 #cover-text  {
     background-color: rgba(25, 40, 47, 0.6);
-    font-size: 125%;
+    font-family: 'Taviraj',serif;
+    font-size: 120%;
     position: absolute;
     bottom: 35px;
-    text-align: right;
+    text-align: center;
 }
 
 /* About Page */
