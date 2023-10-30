@@ -112,6 +112,18 @@ main  {
     width: 100%;
     background: url("../images/ronin_640.jpg") no-repeat center center/cover;
 }
+
+#cover-text-a {
+    background-color: rgba(25, 40, 47, 0.6);
+    font-family: 'Taviraj', serif;
+    font-size: 120%;
+    /*Note: Flex-box does not apply - display:block element cannot be overwritten */
+    position: absolute;
+    top: 95px;
+    text-align: center;
+    justify-content: center;
+}
+
 #m_techniques img {
     width: 100vw; /* id over class selector */
 }
