@@ -114,6 +114,11 @@ main  {
 
 
 /* Services Page */
+#fox  {
+    height: 640px;
+    width: 100%;
+    background: url("../images/fox_640.jpg") no-repeat center center/cover;
+}
 
 #services img {
     width: 100vw; /* id over class selector */
