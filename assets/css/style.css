@@ -107,11 +107,14 @@ main  {
 }
 
 /* About Page */
-
+#ronin {
+    height: 640px;
+    width: 100%;
+    background: url("../images/ronin_640.jpg") no-repeat center center/cover;
+}
 #m_techniques img {
     width: 100vw; /* id over class selector */
 }
-
 
 /* Services Page */
 #fox  {
