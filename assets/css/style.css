@@ -102,8 +102,14 @@ main  {
     width: 100vw; /* id over class selector */
 }
 
-/* Request (Build a Gate) Page */
 
+/* Services Page */
+
+#services img {
+    width: 100vw; /* id over class selector */
+}
+
+/* Request (Build a Gate) Page */
 #mountain {
     height: 653px;
     width: 100%;
