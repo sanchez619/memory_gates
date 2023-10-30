@@ -189,3 +189,18 @@ footer  {
     font-size: 200%;
     padding: 5%
 }
+
+/* Media query - Ordered from lowest to highest device width */
+
+@media screen and (min-width: 768px)  {
+    nav  {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1em;
+    }
+}
+
+#menu {
+    display: flex;
+}
