@@ -209,12 +209,25 @@ footer  {
     padding: 0 5px;
     }
 
-    /*Removal of Menu checkbox on larger screens*/
     .nav-label  {
-    display: none;
+    display: none; /*Removal of Menu checkbox on larger screens*/
     }
     
-    /*Services Webpage*/
+    /* About Webpage */
+
+    .m_summary {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #m_techniques .quote-box, #m_techniques img {
+        width: 50vw;
+    }
+
+    div .m_summary  {
+        width: 100vw;
+    }
+    /* Services Webpage */
     #guidance, #creativity, #training  {
         display: flex;
         flex-wrap: wrap;
