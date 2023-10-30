@@ -213,6 +213,24 @@ footer  {
     .nav-label  {
     display: none;
     }
+    
+    /*Services Webpage*/
+    #guidance, #creativity, #training  {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #guidance div, #creativity div,
+        #training div {
+        width: 50%;
+        flex-wrap: wrap;
+    }
+
+    #services img  {
+        width: 50vw;  /* vw instead of percent as it does adapt to the screen */
+        border: 5px inset #FACF5A;
+        padding: 20px; 
+    }
 }
 
 /* Media Query for laptop or larger devices */
