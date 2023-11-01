@@ -270,6 +270,10 @@ footer  {
         width: 100vw;
     }
     /* Services Webpage */
+    #cover-text-b {
+        font-size: 270%;
+    }
+    
     #guidance, #creativity, #training  {
         display: flex;
         flex-wrap: wrap;
