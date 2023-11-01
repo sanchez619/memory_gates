@@ -136,6 +136,10 @@ main  {
     background: url("../images/fox_1920.jpg") no-repeat center center/cover;
 }
 
+#cover-text-b  {
+    font-size: 140%;
+}
+
 #services img {
     width: 100vw; /* id over class selector */
 }
