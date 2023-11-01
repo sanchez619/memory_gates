@@ -117,9 +117,9 @@ main  {
     background-color: rgba(25, 40, 47, 0.6);
     font-family: 'Taviraj', serif;
     font-size: 120%;
-    /*Note: Flex-box does not apply - display:block element cannot be overwritten */
+    width: 100%;
     position: absolute;
-    top: 95px;
+    bottom: 0;
     text-align: center;
     justify-content: center;
 }
@@ -221,8 +221,15 @@ footer  {
     .nav-label  {
     display: none; /*Removal of Menu checkbox on larger screens*/
     }
+
+    
     
     /* About Webpage */
+    #cover-text-a{
+        font-size: 270%;
+        width: 100%;
+        bottom: 5rem;
+    }
 
     .m_summary {
         display: flex;
