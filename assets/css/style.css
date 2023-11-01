@@ -119,7 +119,7 @@ main  {
     font-size: 120%;
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 5rem;
     text-align: center;
     justify-content: center;
 }
@@ -221,14 +221,10 @@ footer  {
     .nav-label  {
     display: none; /*Removal of Menu checkbox on larger screens*/
     }
-
-    
     
     /* About Webpage */
     #cover-text-a{
         font-size: 270%;
-        width: 100%;
-        bottom: 5rem;
     }
 
     .m_summary {
