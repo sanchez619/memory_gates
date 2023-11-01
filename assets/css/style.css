@@ -190,8 +190,19 @@ main  {
     background-color: rgba(25, 40, 47, 0.6);
     font-family: 'Taviraj', serif;
     font-size: 140%;
+    width: 100%;
     position: absolute;
-    bottom: 35px;
+    top: 5rem;
+    text-align: center;
+}
+
+#r_gratitude_2 {
+    background-color: rgba(25, 40, 47, 0.75);
+    font-family: 'Taviraj', serif;
+    font-size: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 5rem;
     text-align: center;
 }
 
