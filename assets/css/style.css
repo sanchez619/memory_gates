@@ -163,6 +163,10 @@ main  {
     margin: 5px 0 20px 0;
 }
 
+#user_request textarea  {
+    width: 100%;
+}
+
 .form-button  {
     margin-top: 30px;
     border-radius: 2px;
