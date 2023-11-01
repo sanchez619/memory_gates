@@ -170,6 +170,15 @@ main  {
     color: #FF5956;
     background-color: #19282F;
 }
+/* Confirmation Webpage */
+#r_gratitude  {
+    background-color: rgba(25, 40, 47, 0.6);
+    font-family: 'Taviraj', serif;
+    font-size: 140%;
+    position: absolute;
+    bottom: 35px;
+    text-align: center;
+}
 
 /*Footer*/
 footer  {
@@ -261,9 +270,16 @@ footer  {
 
 /* Media Query for laptop or larger devices */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
+    /* General Changes */
     #menu a:hover  {
         color: #FF5956;
+    }
+
+    /* main page */
+    #cover-text  {
+        font-size: 160%;
+        left: 50%;
     }
 
     
