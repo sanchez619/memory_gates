@@ -136,8 +136,15 @@ main  {
     background: url("../images/fox_1920.jpg") no-repeat center center/cover;
 }
 
-#cover-text-b  {
+#cover-text-a {
+    background-color: rgba(25, 40, 47, 0.6);
+    font-family: 'Taviraj', serif;
     font-size: 140%;
+    width: 100%;
+    position: absolute;
+    bottom: 5rem;
+    text-align: center;
+    justify-content: center;
 }
 
 #services img {
