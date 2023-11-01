@@ -34,7 +34,7 @@
     <!--Main element-->
     <main>
         <section id="mountain">
-            <form id="user_request" method="post">
+            <form id="user_request" method="get">
                 <label for="first_name">First Name</label>
                 <input type="text" name="first_name" id="first_name" class="text-line" placeholder="First Name" required>
                 <br>
@@ -72,7 +72,7 @@
                 <input type="file" name="information" id="information">
                 <br>
                 <a href="confirmation.html">
-                    <input type="submit" value="Request Gate" class="form-button">
+                    <input type="submit" value="Request Gate" class="form-button" onclick="location.href='confirmation.html'">
                 </a>
                 <input type="reset" value="Begin Anew" class="form-button">
         </section>
