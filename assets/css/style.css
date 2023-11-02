@@ -268,11 +268,11 @@ footer  {
     display: none; /*Removal of Menu checkbox on larger screens*/
     }
 
-    #cover-text h2 {
+    #cover-text h1 {
         font-size: 3rem;
     }
 
-    #cover-text h4  {
+    #cover-text h2  {
         font-size: 2rem;
     }
     
