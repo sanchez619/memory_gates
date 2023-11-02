@@ -41,6 +41,11 @@ header a  {
     color: inherit;
 }
 
+/*Targets h1 size separately*/
+#logo  {
+    font-size: 1.8rem;
+}
+
 nav {
     position: absolute;
     z-index: 99;
@@ -65,7 +70,6 @@ nav {
 }
 
 /* emphasises the active website in menu */
-
 .active  {
     color: #FF5956;
     font-weight: bold;
@@ -99,7 +103,7 @@ main  {
 #cover-text  {
     background-color: rgba(25, 40, 47, 0.6);
     font-family: 'Taviraj',serif;
-    font-size: 120%;
+    font-size: 1.2rem;
     width: 100%;
     position: absolute;
     bottom: 5rem;
