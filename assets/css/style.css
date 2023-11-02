@@ -183,8 +183,19 @@ main  {
     margin: 5px 0 20px 0;
 }
 
+::placeholder  {
+    color: #fff;
+    opacity: 1;
+}
+
 #user_request textarea  {
+    background: transparent;
+    color: #fff;
     width: 100%;
+}
+
+#request-type  {
+    color:#fff;
 }
 
 .form-button  {
@@ -194,6 +205,7 @@ main  {
     color: #FF5956;
     background-color: #19282F;
 }
+
 /* Confirmation Webpage */
 #r_gratitude  {
     background-color: rgba(25, 40, 47, 0.6);
