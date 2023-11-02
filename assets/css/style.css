@@ -41,6 +41,10 @@ header a  {
     color: inherit;
 }
 
+i  {
+    color: #FF5956;
+}
+
 /*Targets h1 size separately*/
 #logo  {
     font-size: 1.8rem;
