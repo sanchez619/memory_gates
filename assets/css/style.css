@@ -307,7 +307,7 @@ footer  {
     }
     
     /* About Webpage */
-    #cover-text-a{
+    #cover-text-a {
         font-size: 2.7rem;
     }
 
@@ -316,14 +316,14 @@ footer  {
         flex-wrap: wrap;
     }
 
-    #m_techniques img {
+    #m-techniques img {
         width: 50vw;
         border: 5px inset #FACF5A;
         padding: 20px;
         margin-top: 10px;
     }
 
-    #m_techniques .m-explanation  {
+    #m-techniques .m-explanation  {
         width: 50vw;
         padding: 10px 0 0 2vw;
     }
