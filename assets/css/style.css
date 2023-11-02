@@ -160,8 +160,13 @@ main  {
     text-align: center;
 }
 
+#m-techniques h3 {
+    padding-top: 1rem;
+}
+
 .m-summary p {
     padding: 1rem 1rem;
+    text-align: justify;
 }
 
 #m-techniques img {
