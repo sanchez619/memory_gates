@@ -31,10 +31,8 @@ header  {
     align-items: baseline;
 }
 
-h1  {
+h1, h2, h3  {
     font-family: 'Taviraj', serif;
-    /* adjusts font-size for chosen font */
-    font-size: 24px;
 }
 
 header a  {
