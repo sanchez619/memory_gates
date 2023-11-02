@@ -144,7 +144,19 @@ main  {
     justify-content: center;
 }
 
-#m_techniques img {
+#mnemonics {
+    padding: 0.5rem 1rem;
+}
+
+#m-introduction  {
+    text-align: center;
+}
+
+#mnemonics p {
+    text-align: justify;
+}
+
+#m-techniques img {
     width: 90vw;
     display: flex; /*Note: display:block should work here, but does not */
     margin: 0 auto; 
