@@ -127,7 +127,11 @@ main  {
 }
 
 #m_techniques img {
-    width: 100vw; /* id over class selector */
+    width: 90vw;
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1rem inset #FACF5A;
 }
 
 /* Services Page */
