@@ -114,6 +114,18 @@ main  {
     text-align: center;
 }
 
+#statement  {
+    padding: 0.5rem 1rem;
+}
+
+#h-statement  {
+    text-align: center;
+}
+
+#h-statement p {
+    text-align: justify;
+}
+
 /* About Page */
 #ronin {
     height: 100vh;
