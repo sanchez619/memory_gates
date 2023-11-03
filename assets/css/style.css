@@ -494,5 +494,27 @@ footer  {
     .explanation-box p {
         font-size: 1.4rem;
     }
+    
+    /*Request Page*/
+    
+    label {
+        font-size: 1.4rem;
+    }
+    
+    input {
+        font-size: 1.1rem;
+    }
+    
+    select {
+        font-size: 1.1rem;
+    }
+    
+    textarea {
+        font-size: 1.1rem;
+    }
+
+    button {
+        font-size: 1.8rem;
+    }
 }
 
