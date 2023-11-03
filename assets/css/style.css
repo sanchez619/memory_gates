@@ -236,6 +236,7 @@ main  {
 
 .text-line  {
     background: transparent;
+    color: #fff;
     border: 1px inset #FACF5A;
     border-radius: 2px;
     width: 100%;
@@ -407,11 +408,19 @@ footer  {
     }
 }
 
-/* Media Query for laptop or larger devices */
+/* Media Query for small laptops*/
 
 @media screen and (min-width: 992px) {
     /* General Changes */
     #menu a:hover  {
+        color: #FF5956;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* General Changes */
+    #menu a:hover {
         color: #FF5956;
     }
 }
