@@ -329,14 +329,14 @@ footer  {
     }
 
     #m-techniques img {
-        width: 50vw;
+        width: 50vw; /* vw instead of percent as it does adapt to the screen */
         border: 5px inset #FACF5A;
         padding: 20px;
         margin-top: 10px;
     }
 
     #m-techniques .m-explanation  {
-        width: 50vw;
+        width: 50%;
         padding: 10px 0 0 2vw;
     }
 
