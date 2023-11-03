@@ -448,7 +448,7 @@ footer  {
 
     #cover-text-a h1 {
         font-size: 4rem;
-        }
+    }
     
     #cover-text-a h2 {
         font-size: 2.5rem;
@@ -515,6 +515,15 @@ footer  {
 
     button {
         font-size: 1.8rem;
+    }
+
+    /* Confirmation Page */
+    
+    #r_gratitude {
+        font-size: 2.2rem;
+    }
+    #r_gratitude_2  {
+        font-size: 1.5rem;
     }
 }
 
