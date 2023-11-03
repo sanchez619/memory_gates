@@ -6,15 +6,17 @@
 
 As an educator, my goal has always been to provide my students with the most thorough care and the best possible tools to tackle language learning goals easily and without unnecessary effort. This sentiment has led me to teach and practice Mnemonic techniques, learning strategies for memorization and non-linear thinking. Many famous memory competitors have displayed feats of memorzation which seemingly seem impossible from a contemporary view on human memory. Hence, it only seemed logical to pass on these techniques to my students. In interaction with teenagers from 11-15 years, I have accumulated a general awareness of the merits and issues in teaching memory strategies. This website "Memory Gates" serves as a first foundation to help other people via the use of Mnemonic strategies and eventually passing them on.
 
+![Am I responsive screenshot](docs/screenshots/am-i-responsive.jpg)
+
 ## Index
 
 1. [General Description](#general-description)
-2. [**Planning Stages**](#planning-stages)
-3. [**General Elements**](#general-elements)
-4. [**Individual Page Features**](#individual-page-features)
-5. [**Testing**](#testing)
-6. [**Credits**](#credits)
-7. [**Special thanks to**](#special-thanks-to)
+2. [Planning Stages](#planning-stages)
+3. [General Elements](#general-elements)
+4. [Individual Page Features](#individual-page-features)
+5. [Testing](#testing)
+6. [Credits](#credits)
+7. [Special thanks to](#special-thanks-to)
 
 ## **General Description**
 
@@ -149,12 +151,13 @@ Hero image:
 * The cover text conveys the guiding function of Mnemonics and associates them with the image of a gate.
 
 Content:
-*The first content section introduces the user to the concepts of Mnemonics and non-linear memory.
-*The hero image is used as example to illustrate the effect of imagery on memory.
 
-*The second content section provides a quick rundown of three well-known Mnemonic Strategies.
-*Each strategy is explained in a short paragrah.
-*A supporting picture is positioned next to each paragraph.
+* The first content section introduces the user to the concepts of Mnemonics and non-linear memory.
+* The hero image is used as example to illustrate the effect of imagery on memory.
+
+* The second content section provides a quick rundown of three well-known Mnemonic Strategies.
+* Each strategy is explained in a short paragrah.
+* A supporting picture is positioned next to each paragraph.
 
 ### services.html
 
@@ -191,8 +194,8 @@ Form:
 * The first three pieces of information are the users first name, last name and Email Address. Each are assigned to a input function and the respective label.
 * Then, the user is required to indicated the field of usage for their information / data.
 * The following two text areas allow the user to specify the order.
-    First, the user can describe the nature of their information / request in more detail.
-    Afterwards, the user provides their fields of expertise and/or interest to Memory Gates. This information will help the provider create mental imagery which fits the individual user.
+  * First, the user can describe the nature of their information / request in more detail.
+  * Afterwards, the user provides their fields of expertise and/or interest to Memory Gates. This information will help the provider create mental imagery which fits the individual user.
 * Before submitting this form, the user has the option to add a file to their request. This information will be referenced if the user already has very specific information in mind. If no file is provided, Memory Gates will reach out with a concept for fitting mental associations and discuss the necessary information with the user.
 * After filling in the form, the user can submit their request via the 'Build a Gate' button. This button will direct them to the 'confirmation.html' webpage.
 * Should the form contain significant flaws, the user can reset their input via the button 'Begin Anew'.
@@ -207,19 +210,20 @@ Form:
 
 While the idea of using software or even AI to create mnemonics on the spot seems tempting, these changes would be far too advanced and would not likely result in memorable mnemonics.
 The simpler, but more effective solution would be to create form for each specific mnemonic strategy.
-  *The Story Method could be enhanced via the use of a website with a dedicated textarea. On this page, the user could mark keywords they would like to remember.
-  *The Major Method would probably benefit from a table-like form, which assignes each number to a specific image or object. These items would be provided by the user.
-  *The Mind Palace would require a huge
+
+* The Story Method could be enhanced via the use of a website with a dedicated textarea. On this page, the user could mark keywords they would like to remember.
+* The Major Method would probably benefit from a table-like form, which assignes each number to a specific image or object. These items would be provided by the user.
+* The Mind Palace would require a huge
 
 Another sensible addition would be the collaboration with experts from the field of Mnemonics. Content creators like Anthony Metivier have carved out a niche for Memory strategies on the web and display regular activity. With his or other Memory experts' approval, Memory Gates would share their content in video or audio format.
 For this change, a blog needs to be created, which contains updates, guest content to keep users informed about the Mnemonics community.
 
 ## **Testing**
 
-*The testing was mainly done on the browsers Google Chrome, Microsoft Edge and Opera.
-*The website was tested for a screen width between 280px and 1440px. Appropriate media queries apply to all ranges.
-*The tests in the HTML and CSS Validator were passed without major incident. All webpages passed.
-*While in earlier builds the
+* The testing was mainly done on the browsers Google Chrome, Microsoft Edge and Opera.
+* The website was tested for a screen width between 280px and 1440px. Appropriate media queries apply to all ranges.
+* The tests in the HTML and CSS Validator were passed without major incident. All webpages passed.
+* While in earlier builds the
 
 Bug fixing:
 During the creation of the website, these following major issues appeared.
@@ -231,19 +235,20 @@ During the creation of the website, these following major issues appeared.
 3. Footer
 
 One remaining bug could not be continuosly fixed:
-*For mobile, the request.html form would expand beyond the screen width on a German system. The cause is the file-input, which indicates whether a file was submitted or not. Unfortunately, the default phrase "Keine Datei ausgewählt" could not be removed permanently. The result is that the webpage would adjust its center to the right.
-Solutions like hiding the input were rejected, as the indicator is necessary for the user.
-However, the bug seems dependent on the system. In tests with my mentor Richard Wells, the centre of the page does not move. Ultimately, the decision was made to document, but not remove the bug.
+
+* For mobile, the request.html form would expand beyond the screen width on a German system. The cause is the file-input, which indicates whether a file was submitted or not. Unfortunately, the default phrase "Keine Datei ausgewählt" could not be removed permanently. The result is that the webpage would adjust its center to the right.
+* Solutions like hiding the input were rejected, as the indicator is necessary for the user.
+* However, the bug seems dependent on the system. In tests with my mentor Richard Wells, the centre of the page does not move. Ultimately, the decision was made to document, but not remove the bug.
 
 Testing with third parties:
 During end phases of programming, I sent a link to close friends and co-workers. They checked the website (mostly on mobile) for any user issues, and pointed out minor design flaws (like color or positioning). In general, they reported no major issues.
 
 ## **Credits**
 
-*The images used are free-use images from the website "Pixabay." The various users allowed the usage as long as the image itself was not used for sale.
-*For various small programming details, the website "W3S-Schools" served as reference, especially regarding the style of frames as well as flexbox properties.
-*While the knowledge about Japanese language and culture stems mainly from my exchange year at Kanazawa University, general information about Torii Gates and the Inari can be found on Wikipedia. (Both webpages references external sources extensively, so it is as reliable as an open source can get.)
-*While the phrasing and explanation of the Mnemonic techniques were written by myself, Nelson Dellis' "Memory Superpowers!: An Adventurous Guide to Remembering What You Don't Want to Forget" and Joshua Foer's "Moonwalking with Einstein: The Art and Science of Remembering Everything" serve as basis for all content regarding memory strategies.
+* The images used are free-use images from the website "Pixabay." The various users allowed the usage as long as the image itself was not used for sale.
+* For various small programming details, the website "W3S-Schools" served as reference, especially regarding the style of frames as well as flexbox properties.
+* While the knowledge about Japanese language and culture stems mainly from my exchange year at Kanazawa University, general information about Torii Gates and the Inari can be found on Wikipedia. (Both webpages references external sources extensively, so it is as reliable as an open source can get.)
+* While the phrasing and explanation of the Mnemonic techniques were written by myself, Nelson Dellis' "Memory Superpowers!: An Adventurous Guide to Remembering What You Don't Want to Forget" and Joshua Foer's "Moonwalking with Einstein: The Art and Science of Remembering Everything" serve as basis for all content regarding memory strategies.
 
 ## **Special Thanks to**
 
