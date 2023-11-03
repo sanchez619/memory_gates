@@ -8,13 +8,13 @@ As an educator, my goal has always been to provide my students with the most tho
 
 ## Index
 
-1. [**General Description**](#general-description)
-1. [**Planning Stages**](#planning-stages)
-1. [**General Elements**](#general-elements)
-1. [**Individual Page Features**](#individual-page-features)
-1. [**Testing**](#testing)
-1. [**Credits**](#credits)
-1. [**Special thanks to:**](#special-thanks-to)
+1. [General Description](#general-description)
+2. [**Planning Stages**](#planning-stages)
+3. [**General Elements**](#general-elements)
+4. [**Individual Page Features**](#individual-page-features)
+5. [**Testing**](#testing)
+6. [**Credits**](#credits)
+7. [**Special thanks to**](#special-thanks-to)
 
 ## **General Description**
 
@@ -127,6 +127,7 @@ Fonts:
 ### index.html
 
 Hero image:
+[!Torii Hero Image]("assets/images/torii_1920.jpg")
 
 * The image display a boy standing on a shallow lake. The ground is plastered with photos and the background shows a Torii Gate illuminated by the dusk.
 * The image is supposed to represent the user (boy), the memories (photos) and the service of Memory Gates (Torii Gates).
@@ -141,6 +142,7 @@ Content:
 ### about.html
 
 Hero image:
+[!Ronin Hero Image]("assets/images/ronin_1920.jpg")
 
 * A person with a fox mask and a katana stands in front of a white Torii gate.
 * The unusual combination of clothes and items makes the person unique. This way, the importance of vivid and extraordinary imagery is represented.
@@ -157,6 +159,7 @@ Content:
 ### services.html
 
 Hero image:
+[!Fox Hero Image]("assets/images/fox_1920.jpg")
 
 * The image displays a fox sitting in front of a Torii.
 * The fox serves as representation of Memory Gates as a knowledgeable guide - a motif taken from Japanese mythology.
@@ -168,16 +171,17 @@ Content:
 * The first content section lays out the problem of accessibility regarding Mnemonics.
 * At the same time, the user is assured that they can reap benefits from using Memory Gates, regardless of whether they want to learn Memory strategies or not.
 
-*The second content section provides a quick rundown of three well-known Mnemonic Strategies.
-*Each strategy is explained in a short paragrah.
-*A supporting picture is positioned next to each paragraph.
+* The second content section provides a quick rundown of three well-known Mnemonic Strategies.
+* Each strategy is explained in a short paragrah.
+* A supporting picture is positioned next to each paragraph.
 
 ### request.html
 
 Hero image:
+[!Mountain Hero Image]("assets/images/mountain_1920.jpg")
 
 * The image displays a Torii next to a mountain. The light paints everything in a dark yellow shade.
-*
+* I chose this picture because it shows a high obstacle, but the Torii stands next to it to guide those who attempt to climb the mountain.
 
 Form:
 
@@ -187,8 +191,8 @@ Form:
 * The first three pieces of information are the users first name, last name and Email Address. Each are assigned to a input function and the respective label.
 * Then, the user is required to indicated the field of usage for their information / data.
 * The following two text areas allow the user to specify the order.
-    *First, the user can describe the nature of their information / request in more detail.
-    *Afterwards, the user provides their fields of expertise and/or interest to Memory Gates. This information will help the provider create mental imagery which fits the individual user.
+    First, the user can describe the nature of their information / request in more detail.
+    Afterwards, the user provides their fields of expertise and/or interest to Memory Gates. This information will help the provider create mental imagery which fits the individual user.
 * Before submitting this form, the user has the option to add a file to their request. This information will be referenced if the user already has very specific information in mind. If no file is provided, Memory Gates will reach out with a concept for fitting mental associations and discuss the necessary information with the user.
 * After filling in the form, the user can submit their request via the 'Build a Gate' button. This button will direct them to the 'confirmation.html' webpage.
 * Should the form contain significant flaws, the user can reset their input via the button 'Begin Anew'.
@@ -238,5 +242,11 @@ During end phases of programming, I sent a link to close friends and co-workers.
 
 *The images used are free-use images from the website "Pixabay." The various users allowed the usage as long as the image itself was not used for sale.
 *For various small programming details, the website "W3S-Schools" served as reference, especially regarding the style of frames as well as flexbox properties.
-*While the knowledge about Japanese language and culture stems mainly from my exchange year at Kanazawa University, general information about Torii Gates and the Inari can be found on Wikipedia. (Both webpages references external sources extensively, so it is as reliable as an open source can get.
+*While the knowledge about Japanese language and culture stems mainly from my exchange year at Kanazawa University, general information about Torii Gates and the Inari can be found on Wikipedia. (Both webpages references external sources extensively, so it is as reliable as an open source can get.)
 *While the phrasing and explanation of the Mnemonic techniques were written by myself, Nelson Dellis' "Memory Superpowers!: An Adventurous Guide to Remembering What You Don't Want to Forget" and Joshua Foer's "Moonwalking with Einstein: The Art and Science of Remembering Everything" serve as basis for all content regarding memory strategies.
+
+## **Special Thanks to**
+
+* Richard Wells, my mentor who has had an open ear for all of my ideas and makes sure that I know exactly what I need to fix in my code.
+* Anthony Metivier, for inspiring me to delve deeper into Mnemonics and showing me that memory is a skill, not a talent.
+* all friends, family members and co-workers supporting me on my new career path.
