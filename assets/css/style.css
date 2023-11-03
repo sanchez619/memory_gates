@@ -203,6 +203,19 @@ main  {
     border: 1rem inset #FACF5A;
 }
 
+#s-summary h2{
+    text-align: center;
+}
+
+#s-summary p {
+    padding: 1rem;
+    text-align: justify;
+}
+
+#services h3  {
+    padding-top: 1rem
+}
+
 .explanation-box p {
     padding: 1rem;
 }
