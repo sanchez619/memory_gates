@@ -234,16 +234,26 @@ For this change, a blog needs to be created, which contains updates, guest conte
 * The testing was mainly done on the browsers Google Chrome, Microsoft Edge and Opera.
 * The website was tested for a screen width between 280px and 1440px. Appropriate media queries apply to all ranges.
 * The tests in the HTML and CSS Validator were passed without major incident. All webpages passed.
-* While in earlier builds the
+* All websites were checked with Lighthouse and Opera. Unfortunately, the performance suffers due to the current media queries as well as the hero images. I have focused my efforts on the other factors of the evaluation, which were near perfect during the final testing.
 
 Bug fixing:
 During the creation of the website, these following major issues appeared.
 
-1. Flex-Box Styling
+#### Flex-Box Shrinking
 
-2. Flex-Box
+* Problem: Before using and then returning to percentage widths, the images in the about and services pages would not take up 50% of the space when targeted. Instead, they filled up only one half of their div.
+* Fix: Images on these pages have vw assigned to them to ensure they talk up half the space of the page.
 
-3. Footer
+
+#### Flex-Box Styling About.html
+
+* Problem: During testing, the services webpage would align all items on the left side of the page, even though the code was applied similarly on the services page.
+* Fix: The section division as well as the image divisions needed to be targeted separately for the flexbox properties to apply as intended.
+  
+#### Footer Form
+
+* Problem: Originally, the footer was supposed to also be set absolute so that it remains visible all the time. This layout, however, would cover the buttons on the request form. Furthermore, the footer occasionally changed position.
+* Fix: The footer was not made absolute and the height of the hero image was increased to 115vh.
 
 One remaining bug could not be continuosly fixed:
 
