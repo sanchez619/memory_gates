@@ -122,7 +122,7 @@ main  {
     text-align: center;
 }
 
-#h-statement p {
+#statement p {
     text-align: justify;
 }
 
@@ -417,11 +417,25 @@ footer  {
     }
 }
 
-@media screen and (min-width: 1200px) {
+/* Media Query for large laptops and above*/
 
-    /* General Changes */
-    #menu a:hover {
-        color: #FF5956;
+@media screen and (min-width: 1200px) {
+    
+    /*Index Page */
+    #cover-text h1 {
+        font-size: 4rem;
+    }
+    
+    #cover-text h2 {
+        font-size: 2.5rem;
+    }
+
+    #h-statement {
+        font-size: 2.5rem;
+    }
+
+    #statement p {
+        font-size: 1.4rem;
     }
 }
 
