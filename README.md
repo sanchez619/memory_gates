@@ -108,7 +108,7 @@ Dropdown Menu (below 768px):
 * The active webpage changes its color to a lighter red to indicate the user's location on the website.
 
 Integrated Menu (769px+)
- 
+
 * The menu items are integrated into the header in order not to distract from the hero image.
 * The position is kept on the right side of the page not to confuse the user.
 * They remain the function to switch color when active.
@@ -243,7 +243,6 @@ During the creation of the website, these following major issues appeared.
 
 * Problem: Before using and then returning to percentage widths, the images in the about and services pages would not take up 50% of the space when targeted. Instead, they filled up only one half of their div.
 * Fix: Images on these pages have vw assigned to them to ensure they talk up half the space of the page.
-
 
 #### Flex-Box Styling About.html
 
