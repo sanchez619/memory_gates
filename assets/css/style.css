@@ -446,6 +446,34 @@ footer  {
 
     /*About Page */
 
+    #cover-text-a h1 {
+        font-size: 4rem;
+        }
+    
+    #cover-text-a h2 {
+        font-size: 2.5rem;
+    }
+    
+    #m-introduction {
+        font-size: 2.5rem;
+    }
+
+    #mnemonics p {
+        font-size: 1.4rem;
+    }
+
+    #m-techniques h2 {
+        font-size: 2.5rem;
+    }
+
+    #m-techniques h3 {
+        font-size: 1.8rem;
+    }
+
+    .m-summary p {
+        font-size: 1.4rem;
+    }
+
     
 }
 
