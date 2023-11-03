@@ -304,15 +304,15 @@ footer  {
     }
 
     #menu {
-    display: flex;
+        display: flex;
     }
 
     #menu > li {
-    padding: 0 5px;
+        padding: 0 5px;
     }
 
     .nav-label  {
-    display: none; /*Removal of Menu checkbox on larger screens*/
+        display: none; /*Removal of Menu checkbox on larger screens*/
     }
 
     #cover-text h1 {
@@ -349,9 +349,14 @@ footer  {
     }
 
     #m-techniques h3 {
-        padding: 0 1rem;
+        padding: 0 1rem 0 0;
         text-align: left;
     }
+
+    .m-summary p  {
+        padding: 1rem 1rem 1rem 0;
+    }
+
     /* Services Webpage */
     #cover-text-b {
         font-size: 2.7rem;
@@ -381,6 +386,10 @@ footer  {
 
     #services h3 {
         text-align: left;
+    }
+    
+    .explanation-box p {
+        padding: 1rem 1rem 1rem 0;
     }
 }
 
