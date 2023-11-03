@@ -326,7 +326,6 @@ footer  {
 
     .m-summary {
         display: flex;
-        flex-wrap: wrap;
     }
 
     #m-techniques img {
@@ -357,7 +356,6 @@ footer  {
     #guidance div, #creativity div,
         #training div {
         width: 50%;
-        flex-wrap: wrap;
     }
 
     #services img  {
