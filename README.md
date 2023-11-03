@@ -22,54 +22,59 @@ As an educator, my goal has always been to provide my students with the most tho
 
 ### Target Audiences
 
-*Users who need to memorize large amounts of information in a short time
-*Users who need to memorize information for important occasions (exams, performances, business meetings etc.)
-*Users who want to improve their general learning capabilities
-*Users who want to improve their own memory
+* Users who need to memorize large amounts of information in a short time
+* Users who need to memorize information for important occasions (exams, performances, business meetings etc.)
+* Users who want to improve their general learning capabilities
+* Users who want to improve their own memory
 
 ### User Stories
 
-*As a user, I want to know what the page is about immediately.
-*As a user, I want to visit a asthetically pleasing website, which is also easy to navigate.
-*As a user, I want to learn what the authors of the website have to offer and how it benefits me.
-*As a user, I want to test whether their offer can help me in my personal life.
+* As a user, I want to know what the page is about immediately.
+* As a user, I want to visit a asthetically pleasing website, which is also easy to navigate.
+* As a user, I want to learn what the authors of the website have to offer and how it benefits me.
+* As a user, I want to test whether their offer can help me in my personal life.
 
 ### Site Aims
 
 Memory Gates intends to...
-*introduce the user to the core principles of Mnemonic Strategies.
-*display the benefits of using Mnemonic Strategies.
-*explain to the user what services Memory Gates can offer.
-*create Mnemonic frameworks for users to memorize information more easily.
-*offer the students ways to
+
+* introduce the user to the core principles of Mnemonic Strategies.
+* display the benefits of using Mnemonic Strategies.
+* explain to the user what services Memory Gates can offer.
+* create Mnemonic frameworks for users to memorize information more easily.
+* offer the students ways to
 
 ### Methods of Achieving goals
 
 Memory Gates
-*introduces the user an overview of Mnemonics and services on separate webpages.
-*uses Japanese mythological images to create a memorable imagery that illustrate the nature of Mnemonics.
-*provides a form, which allows the users to send their data to learn to Memory Gates.
+
+* introduces the user an overview of Mnemonics and services on separate webpages.
+* uses Japanese mythological images to create a memorable imagery that illustrate the nature of Mnemonics.
+* provides a form, which allows the users to send their data to learn to Memory Gates.
 
 In a more advanced version, Memory Gates...
-*will send the user a cheatsheet using fitting Memory strategies to remember their data.
-*contact customers to discuss their own way of conceptualising information.
-*provide outlines for customers on how to use their way of thinking to improve their creative thinking.
-*offer private sessions to teach Mnemonic strategies.
+
+* will send the user a cheatsheet using fitting Memory strategies to remember their data.
+* contact customers to discuss their own way of conceptualising information.
+* provide outlines for customers on how to use their way of thinking to improve their creative thinking.
+* offer private sessions to teach Mnemonic strategies.
 
 ## **Planning Stages**
 
 In an earlier build, the website was supposed to be called Memory Empire.
 The website had a stronger focus on teaching Mnemonic techniques and was supposed to feature a medieval style.
 My initial goal with Memory Empire was to:
-*display the non-linear structure of human memory.
-*inspire the user to order their memory.
-*provide the Mnemonic strategies as aid for the user.
+
+* display the non-linear structure of human memory.
+* inspire the user to order their memory.
+* provide the Mnemonic strategies as aid for the user.
 
 About halfway into designing the website, I abandoned the concept and decided to change the design and outline for Memory Empire.
 This was done for the following reasons:
-*The mental imagery of an Empire was not memorable in itself. Thus, it didn't reflect the message it was intended to portray.
-*Instead of serving as an aid, the provider should play the role of a guide that can be followed in their traces.
-*The user should have the option to acquire the benefits of Mnemonics without having to necessarily learn them.
+
+* The mental imagery of an Empire was not memorable in itself. Thus, it didn't reflect the message it was intended to portray.
+* Instead of serving as an aid, the provider should play the role of a guide that can be followed in their traces.
+* The user should have the option to acquire the benefits of Mnemonics without having to necessarily learn them.
 
 Eventually, the focus shifted to a Japanese-styled imagery based on the Torii, Shintoist Temple Gates.
 The benefits of these changes were:
@@ -81,48 +86,54 @@ The benefits of these changes were:
 The Header element is absolute and does always stays visible, even after scrolling downwards. This feature ensures that the user would always have access to all pages.
 
 Title:
-*The title represents the brand name and uses a different font from the rest of the header.
-*It contains an a-element back to the index.html. This way, the main message of the website is always just one click away.
+
+* The title represents the brand name and uses a different font from the rest of the header.
+* It contains an a-element back to the index.html. This way, the main message of the website is always just one click away.
 
 ### Navigation Bar
 
 Checkbox
-*The checkbox is represented via the image of a Torii.
-*It is position to the right of the screen, where you would find the burger icon on other webpages.
-*The Torii enforces the visual imagery of the website, as the user would likely search for the menu in that area of the page.
-*it disappears on larger devices in order not to distract from the hero image.
 
-Navigation Bar:
+* The checkbox is represented via the image of a Torii.
+* It is position to the right of the screen, where you would find the burger icon on other webpages.
+* The Torii enforces the visual imagery of the website, as the user would likely search for the menu in that area of the page.
+* it disappears on larger devices in order not to distract from the hero image.
+
+Navigation Bar
 Dropdown Menu (below 768px):
-*The menu is kept simple - keeping the focus on the hero images.
-*A click on the Torii gate will make it appear and disappear.
-*The three menu items - 'Mnemonics', 'Services' and 'Build a Gate' - connect to the other informative or interactive webpages.
-*The active webpage changes its color to a lighter red to indicate the user's location on the website.
+
+* The menu is kept simple - keeping the focus on the hero images.
+* A click on the Torii gate will make it appear and disappear.
+* The three menu items - 'Mnemonics', 'Services' and 'Build a Gate' - connect to the other informative or interactive webpages.
+* The active webpage changes its color to a lighter red to indicate the user's location on the website.
 
 Integrated Menu (769px+)
-*The menu items are integrated into the header in order not to distract from the hero image.
-*The position is kept on the right side of the page not to confuse the user.
-*They remain the function to switch color when active.
-*On laptops and larger screen sizes, the color also changes when the user hovers the mouse above the item.
+ 
+* The menu items are integrated into the header in order not to distract from the hero image.
+* The position is kept on the right side of the page not to confuse the user.
+* They remain the function to switch color when active.
+* On laptops and larger screen sizes, the color also changes when the user hovers the mouse above the item.
 
 Hero Images:
-*The Hero images are the main focus of the webpages. They serve two functions:
+
+* The Hero images are the main focus of the webpages. They serve two functions:
   *create a consistent Japanese mythical imagery.
   *present fitting visual representations for the topic of each website.
-*They fit the entire viewscreen when accessing the site and define the viewers first impression.
-*The informative webpages all contain a cover text, which communicates the main intention of each webpage.
+* They fit the entire viewscreen when accessing the site and define the viewers first impression.
+* The informative webpages all contain a cover text, which communicates the main intention of each webpage.
 
 ### Footer
 
-*The footer contains the icons for the most common social media websites.
-*They will/would then connect the user to the social media webpages of Memory Gates.
-*Nothing else was added. Any other information or text would distract the user from processing the information and the imagery on the webpages.
+* The footer contains the icons for the most common social media websites.
+* They will/would then connect the user to the social media webpages of Memory Gates.
+* Nothing else was added. Any other information or text would distract the user from processing the information and the imagery on the webpages.
 
 Fonts:
-*In order to enhance the artistry of the images, I decided to use two additional fonts which would add an "elegant" feeling, based on my perception.
-*For the headlines, the font "Taviraj" is used.
-*All other text appears in the font "Raleway."
-*Both fonts can be found on Google Font.
+
+* In order to enhance the artistry of the images, I decided to use two additional fonts which would add an "elegant" feeling, based on my perception.
+* For the headlines, the font "Taviraj" is used.
+* All other text appears in the font "Raleway."
+* Both fonts can be found on Google Font.
 
 ## **Individual Page Features**
 
