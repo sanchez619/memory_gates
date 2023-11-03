@@ -337,11 +337,16 @@ footer  {
 
     #m-techniques .m-explanation  {
         width: 50%;
-        padding: 10px 0 0 2vw;
+        padding: 10px 1vw 0 2vw;
     }
 
     div .m-summary  {
         width: 100vw;
+    }
+
+    #m-techniques h3 {
+        padding: 0 1rem;
+        text-align: left;
     }
     /* Services Webpage */
     #cover-text-b {
@@ -366,7 +371,12 @@ footer  {
     }
 
     .explanation-box  {
-        padding: 10px 0 0 2vw;
+        padding: 10px 1vw 0 2vw;
+        text-align: justify;
+    }
+
+    #services h3 {
+        text-align: left;
     }
 }
 
