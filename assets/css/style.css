@@ -474,6 +474,25 @@ footer  {
         font-size: 1.4rem;
     }
 
+    /*Services Page*/
+    #cover-text-b h1 {
+        font-size: 4rem;
+    }
+
+    #s-summary h2 {
+        font-size: 2.5rem;
+    }
     
+    #s-summary p {
+        font-size: 1.4rem;
+    }
+
+    .explanation-box h3 {
+        font-size: 1.8rem;
+    }
+
+    .explanation-box p {
+        font-size: 1.4rem;
+    }
 }
 
