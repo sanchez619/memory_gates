@@ -165,7 +165,7 @@ main  {
 }
 
 .m-summary p {
-    padding: 1rem 1rem;
+    padding: 1rem;
     text-align: justify;
 }
 
@@ -201,6 +201,10 @@ main  {
     margin: 0 auto;
     padding: 1rem;
     border: 1rem inset #FACF5A;
+}
+
+.explanation-box p {
+    padding: 1rem;
 }
 
 /* Request (Build a Gate) Page */
