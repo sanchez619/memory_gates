@@ -38,11 +38,11 @@ As an educator, my goal has always been to provide my students with the most tho
 
 Memory Gates intends to...
 
-* introduce the user to the core principles of Mnemonic Strategies.
+* introduce the user to the core principles of Mnemonic techniques.
 * display the benefits of using Mnemonic Strategies.
 * explain to the user what services Memory Gates can offer.
 * create Mnemonic frameworks for users to memorize information more easily.
-* offer the students ways to
+* eventually teach students the use of Memory Strategies
 
 ### Methods of Achieving Goals
 
@@ -83,9 +83,11 @@ The benefits of these changes were:
 
 ### Header Element
 
-The Header element is absolute and does always stays visible, even after scrolling downwards. This feature ensures that the user would always have access to all pages.
+The header element is absolute and does always stays visible, even after scrolling downwards. This feature ensures that the user would always have access to all pages.
 
 Title
+
+![Header](docs/screenshots/header-screenshot.jpg)
 
 * The title represents the brand name and uses a different font from the rest of the header.
 * It contains an a-element back to the index.html. This way, the main message of the website is always just one click away.
@@ -103,12 +105,16 @@ Checkbox
 
 Dropdown Menu (below 768px):
 
+![Dropdown Menu](docs/screenshots/d-menu-screenshot.jpg)
+
 * The menu is kept simple - keeping the focus on the hero images.
 * A click on the Torii gate will make it appear and disappear.
 * The three menu items - 'Mnemonics', 'Services' and 'Build a Gate' - connect to the other informative or interactive webpages.
 * The active webpage changes its color to a lighter red to indicate the user's location on the website.
 
 Integrated Menu (769px+)
+
+![Header Menu](docs/screenshots/header-menu-screenshot.jpg)
 
 * The menu items are integrated into the header in order not to distract from the hero image.
 * The position is kept on the right side of the page not to confuse the user.
@@ -126,6 +132,8 @@ Integrated Menu (769px+)
 * The informative webpages all contain a cover text, which communicates the main intention of each webpage.
 
 #### Footer
+
+![Footer] (docs/screenshots/footer-screenshot.jpg)
 
 * The footer contains the icons for the most common social media websites.
 * They will/would then connect the user to the social media webpages of Memory Gates.
@@ -272,10 +280,14 @@ During the creation of the website, these following major issues appeared.
 ### Remaining Bug
 
 * For mobile, the request.html form would expand beyond the screen width on a German system. The cause is the file-input, which indicates whether a file was submitted or not. Unfortunately, the default phrase "Keine Datei ausgewählt" could not be removed permanently. The result is that the webpage would adjust its center to the right.
+
+![Form Bug](docs/screenshots/form-bug-screenshot.jpg)
+
 * Solutions like hiding the input were rejected, as the indicator is necessary for the user.
 * However, the bug seems dependent on the system. In tests with my mentor Richard Wells, the centre of the page does not move. Ultimately, the decision was made to document, but not remove the bug.
 
-Testing with third parties:
+### Testing with third parties
+
 During end phases of programming, I sent a link to close friends and co-workers. They checked the website (mostly on mobile) for any user issues, and pointed out minor design flaws (like color or positioning). In general, they reported no major issues.
 
 ## **Credits**
