@@ -6,7 +6,7 @@
 
 As an educator, my goal has always been to provide my students with the most thorough care and the best possible tools to tackle language learning goals easily and without unnecessary effort. This sentiment has led me to teach and practice Mnemonic techniques, learning strategies for memorization and non-linear thinking. Many famous memory competitors have displayed feats of memorzation which seemingly seem impossible from a contemporary view on human memory. Hence, it only seemed logical to pass on these techniques to my students. In interaction with teenagers from 11-15 years, I have accumulated a general awareness of the merits and issues in teaching memory strategies. This website "Memory Gates" serves as a first foundation to help other people via the use of Mnemonic strategies and eventually passing them on.
 
-![Am I responsive screenshot](docs/screenshots/am-i-responsive.jpg)
+![Am I responsive screenshot](docs/screenshots/am-i-responsive.jpeg)
 
 ## Index
 
@@ -116,6 +116,7 @@ Integrated Menu (769px+)
 
 Hero Images:
 
+![Index Screenshot]()
 * The Hero images are the main focus of the webpages. They serve two functions:
   *create a consistent Japanese mythical imagery.
   *present fitting visual representations for the topic of each website.
@@ -140,7 +141,7 @@ Fonts:
 ### index.html
 
 Hero image:
-[!Torii Hero Image]("assets/images/torii_1920.jpg")
+![Torii Hero Image]("assets/images/torii_1920.jpg")
 
 * The image display a boy standing on a shallow lake. The ground is plastered with photos and the background shows a Torii Gate illuminated by the dusk.
 * The image is supposed to represent the user (boy), the memories (photos) and the service of Memory Gates (Torii Gates).
@@ -155,7 +156,7 @@ Content:
 ### about.html
 
 Hero image:
-[!Ronin Hero Image]("assets/images/ronin_1920.jpg")
+![Ronin Hero Image]("assets/images/ronin_1920.jpg")
 
 * A person with a fox mask and a katana stands in front of a white Torii gate.
 * The unusual combination of clothes and items makes the person unique. This way, the importance of vivid and extraordinary imagery is represented.
@@ -173,7 +174,7 @@ Content:
 ### services.html
 
 Hero image:
-[!Fox Hero Image]("assets/images/fox_1920.jpg")
+![Fox Hero Image]("assets/images/fox_1920.jpg")
 
 * The image displays a fox sitting in front of a Torii.
 * The fox serves as representation of Memory Gates as a knowledgeable guide - a motif taken from Japanese mythology.
@@ -192,7 +193,7 @@ Content:
 ### request.html
 
 Hero image:
-[!Mountain Hero Image]("assets/images/mountain_1920.jpg")
+![Mountain Hero Image]("assets/images/mountain_1920.jpg")
 
 * The image displays a Torii next to a mountain. The light paints everything in a dark yellow shade.
 * I chose this picture because it shows a high obstacle, but the Torii stands next to it to guide those who attempt to climb the mountain.
