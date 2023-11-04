@@ -116,7 +116,8 @@ Integrated Menu (769px+)
 
 Hero Images:
 
-![Index Screenshot]()
+![Index Screenshot](docs/screenshots/index-screenshot.jpg)
+
 * The Hero images are the main focus of the webpages. They serve two functions:
   *create a consistent Japanese mythical imagery.
   *present fitting visual representations for the topic of each website.
@@ -163,6 +164,7 @@ Hero image:
 * The cover text conveys the guiding function of Mnemonics and associates them with the image of a gate.
 
 Content:
+![Content About]("docs/screenshots/content-about.jpg")
 
 * The first content section introduces the user to the concepts of Mnemonics and non-linear memory.
 * The hero image is used as example to illustrate the effect of imagery on memory.
@@ -182,6 +184,7 @@ Hero image:
 * The cover text is another call for action to the user, but it assures them the guidance and assistance from Memory Gates
 
 Content:
+![Content Services]("docs/screenshots/content-services.jpg")
 
 * The first content section lays out the problem of accessibility regarding Mnemonics.
 * At the same time, the user is assured that they can reap benefits from using Memory Gates, regardless of whether they want to learn Memory strategies or not.
@@ -199,6 +202,7 @@ Hero image:
 * I chose this picture because it shows a high obstacle, but the Torii stands next to it to guide those who attempt to climb the mountain.
 
 Form:
+![Request Form]("docs/screenshots/build-a-gate-form.jpg")
 
 * The body is positioned inside of the hero image and contains a form.
 * The form is transparent as not to lose the visual effect of the hero image.
@@ -213,6 +217,7 @@ Form:
 * Should the form contain significant flaws, the user can reset their input via the button 'Begin Anew'.
 
 ### confirmation.html
+![Confirmation Page]("docs/screenshots/confirmation-screenshot.jpg")
 
 * The hero image is the same file used in services.html
 * The usage of the fox enforces the association between the fox and Memory Gates
@@ -237,7 +242,8 @@ For this change, a blog needs to be created, which contains updates, guest conte
 * The tests in the HTML and CSS Validator were passed without major incident. All webpages passed.
 * All websites were checked with Lighthouse and Opera. Unfortunately, the performance suffers due to the current media queries as well as the hero images. I have focused my efforts on the other factors of the evaluation, which were near perfect during the final testing.
 
-Bug fixing:
+### Bug fixing
+
 During the creation of the website, these following major issues appeared.
 
 #### Flex-Box Shrinking
@@ -255,7 +261,7 @@ During the creation of the website, these following major issues appeared.
 * Problem: Originally, the footer was supposed to also be set absolute so that it remains visible all the time. This layout, however, would cover the buttons on the request form. Furthermore, the footer occasionally changed position.
 * Fix: The footer was not made absolute and the height of the hero image was increased to 115vh.
 
-One remaining bug could not be continuosly fixed:
+### Remaining Bug
 
 * For mobile, the request.html form would expand beyond the screen width on a German system. The cause is the file-input, which indicates whether a file was submitted or not. Unfortunately, the default phrase "Keine Datei ausgewählt" could not be removed permanently. The result is that the webpage would adjust its center to the right.
 * Solutions like hiding the input were rejected, as the indicator is necessary for the user.
