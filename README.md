@@ -44,7 +44,7 @@ Memory Gates intends to...
 * create Mnemonic frameworks for users to memorize information more easily.
 * offer the students ways to
 
-### Methods of Achieving goals
+### Methods of Achieving Goals
 
 Memory Gates
 
@@ -85,7 +85,7 @@ The benefits of these changes were:
 
 The Header element is absolute and does always stays visible, even after scrolling downwards. This feature ensures that the user would always have access to all pages.
 
-Title:
+Title
 
 * The title represents the brand name and uses a different font from the rest of the header.
 * It contains an a-element back to the index.html. This way, the main message of the website is always just one click away.
@@ -99,7 +99,8 @@ Checkbox
 * The Torii enforces the visual imagery of the website, as the user would likely search for the menu in that area of the page.
 * it disappears on larger devices in order not to distract from the hero image.
 
-Navigation Bar
+#### Navigation Bar
+
 Dropdown Menu (below 768px):
 
 * The menu is kept simple - keeping the focus on the hero images.
@@ -114,7 +115,7 @@ Integrated Menu (769px+)
 * They remain the function to switch color when active.
 * On laptops and larger screen sizes, the color also changes when the user hovers the mouse above the item.
 
-Hero Images:
+#### Hero Images
 
 ![Index Screenshot](docs/screenshots/index-screenshot.jpg)
 
@@ -124,13 +125,13 @@ Hero Images:
 * They fit the entire viewscreen when accessing the site and define the viewers first impression.
 * The informative webpages all contain a cover text, which communicates the main intention of each webpage.
 
-### Footer
+#### Footer
 
 * The footer contains the icons for the most common social media websites.
 * They will/would then connect the user to the social media webpages of Memory Gates.
 * Nothing else was added. Any other information or text would distract the user from processing the information and the imagery on the webpages.
 
-Fonts:
+#### Fonts
 
 * In order to enhance the artistry of the images, I decided to use two additional fonts which would add an "elegant" feeling, based on my perception.
 * For the headlines, the font "Taviraj" is used.
@@ -156,14 +157,16 @@ Content:
 
 ### about.html
 
-Hero image:
+#### Hero Image
+
 ![Ronin Hero Image](assets/images/ronin_1920.jpg)
 
 * A person with a fox mask and a katana stands in front of a white Torii gate.
 * The unusual combination of clothes and items makes the person unique. This way, the importance of vivid and extraordinary imagery is represented.
 * The cover text conveys the guiding function of Mnemonics and associates them with the image of a gate.
 
-Content:
+#### Content
+
 ![Content About](docs/screenshots/content-about.jpg)
 
 * The first content section introduces the user to the concepts of Mnemonics and non-linear memory.
@@ -175,7 +178,8 @@ Content:
 
 ### services.html
 
-Hero image:
+#### Hero Image
+
 ![Fox Hero Image](assets/images/fox_1920.jpg)
 
 * The image displays a fox sitting in front of a Torii.
@@ -183,7 +187,8 @@ Hero image:
 * The drawing style is less realistic in order not to seem intimidating to the user.
 * The cover text is another call for action to the user, but it assures them the guidance and assistance from Memory Gates
 
-Content:
+#### Content
+
 ![Content Services](docs/screenshots/content-services.jpg)
 
 * The first content section lays out the problem of accessibility regarding Mnemonics.
@@ -195,13 +200,15 @@ Content:
 
 ### request.html
 
-Hero image:
+#### Hero Image
+
 ![Mountain Hero Image](assets/images/mountain_1920.jpg)
 
 * The image displays a Torii next to a mountain. The light paints everything in a dark yellow shade.
 * I chose this picture because it shows a high obstacle, but the Torii stands next to it to guide those who attempt to climb the mountain.
 
-Form:
+#### Form
+
 ![Request Form](docs/screenshots/build-a-gate-form.jpg)
 
 * The body is positioned inside of the hero image and contains a form.
@@ -217,6 +224,7 @@ Form:
 * Should the form contain significant flaws, the user can reset their input via the button 'Begin Anew'.
 
 ### confirmation.html
+
 ![Confirmation Page](docs/screenshots/confirmation-screenshot.jpg)
 
 * The hero image is the same file used in services.html
