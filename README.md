@@ -142,7 +142,7 @@ Fonts:
 ### index.html
 
 Hero image:
-![Torii Hero Image]("assets/images/torii_1920.jpg")
+![Torii Hero Image](assets/images/torii_1920.jpg)
 
 * The image display a boy standing on a shallow lake. The ground is plastered with photos and the background shows a Torii Gate illuminated by the dusk.
 * The image is supposed to represent the user (boy), the memories (photos) and the service of Memory Gates (Torii Gates).
@@ -157,14 +157,14 @@ Content:
 ### about.html
 
 Hero image:
-![Ronin Hero Image]("assets/images/ronin_1920.jpg")
+![Ronin Hero Image](assets/images/ronin_1920.jpg)
 
 * A person with a fox mask and a katana stands in front of a white Torii gate.
 * The unusual combination of clothes and items makes the person unique. This way, the importance of vivid and extraordinary imagery is represented.
 * The cover text conveys the guiding function of Mnemonics and associates them with the image of a gate.
 
 Content:
-![Content About]("docs/screenshots/content-about.jpg")
+![Content About](docs/screenshots/content-about.jpg)
 
 * The first content section introduces the user to the concepts of Mnemonics and non-linear memory.
 * The hero image is used as example to illustrate the effect of imagery on memory.
@@ -176,7 +176,7 @@ Content:
 ### services.html
 
 Hero image:
-![Fox Hero Image]("assets/images/fox_1920.jpg")
+![Fox Hero Image](assets/images/fox_1920.jpg)
 
 * The image displays a fox sitting in front of a Torii.
 * The fox serves as representation of Memory Gates as a knowledgeable guide - a motif taken from Japanese mythology.
@@ -184,7 +184,7 @@ Hero image:
 * The cover text is another call for action to the user, but it assures them the guidance and assistance from Memory Gates
 
 Content:
-![Content Services]("docs/screenshots/content-services.jpg")
+![Content Services](docs/screenshots/content-services.jpg)
 
 * The first content section lays out the problem of accessibility regarding Mnemonics.
 * At the same time, the user is assured that they can reap benefits from using Memory Gates, regardless of whether they want to learn Memory strategies or not.
@@ -196,13 +196,13 @@ Content:
 ### request.html
 
 Hero image:
-![Mountain Hero Image]("assets/images/mountain_1920.jpg")
+![Mountain Hero Image](assets/images/mountain_1920.jpg)
 
 * The image displays a Torii next to a mountain. The light paints everything in a dark yellow shade.
 * I chose this picture because it shows a high obstacle, but the Torii stands next to it to guide those who attempt to climb the mountain.
 
 Form:
-![Request Form]("docs/screenshots/build-a-gate-form.jpg")
+![Request Form](docs/screenshots/build-a-gate-form.jpg)
 
 * The body is positioned inside of the hero image and contains a form.
 * The form is transparent as not to lose the visual effect of the hero image.
@@ -217,7 +217,7 @@ Form:
 * Should the form contain significant flaws, the user can reset their input via the button 'Begin Anew'.
 
 ### confirmation.html
-![Confirmation Page]("docs/screenshots/confirmation-screenshot.jpg")
+![Confirmation Page](docs/screenshots/confirmation-screenshot.jpg)
 
 * The hero image is the same file used in services.html
 * The usage of the fox enforces the association between the fox and Memory Gates
