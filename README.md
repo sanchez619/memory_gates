@@ -77,7 +77,11 @@ This was done for the following reasons:
 * The user should have the option to acquire the benefits of Mnemonics without having to necessarily learn them.
 
 Eventually, the focus shifted to a Japanese-styled imagery based on the Torii, Shintoist Temple Gates.
-The benefits of these changes were:
+The benefits of these changes are:
+
+* The Japanese mythological style is present worldwide through contemporary media. This leaves the user with a fascinating, yet familiar impression that will stay in their minds longer.
+* The Torii serve both as metaphor for the services of the website as well as fundamental mental image for the user.
+* The focus on a more artistic style allows the use of a simpler layout and creates an emphasis on the images.
 
 ## **General Elements**
 
@@ -255,8 +259,15 @@ For this change, a blog needs to be created, which contains updates, guest conte
 
 * The testing was mainly done on the browsers Google Chrome, Microsoft Edge and Opera.
 * The website was tested for a screen width between 280px and 1440px. Appropriate media queries apply to all ranges.
-* The tests in the HTML and CSS Validator were passed without major incident. All webpages passed.
-* All websites were checked with Lighthouse and Opera. Unfortunately, the performance suffers due to the current media queries as well as the hero images. I have focused my efforts on the other factors of the evaluation, which were near perfect during the final testing.
+* The website was tested with both HTML and CSS validator.
+  * The CSS validation occured without any issues on all webpages.
+  ![CSS Validation](docs/screenshots/css-validator-screenshot.jpg)
+  * The HTML validation revealed minor spacing and color errors, which were fixed. However, the validation showed a warning regarding the heading structures on all pages. As I want to lay out the structure of the website, this warning remains unfixed. However, this was done in order to display the content of the individual webpages and preserve the styling of the website in general. For future websites, this issue will be addressed in advance.
+  ![HTML Warning](docs/screenshots/html-validation.jpg)
+* All websites were checked with Lighthouse and Opera. Unfortunately, the performance suffers due to the current media queries as well as the hero images; it achieves a score between 71-77 for the different websites. I have focused my efforts on the other factors of the evaluation, which received full scores during the final testing.
+
+Example Evaluation:
+![Lighthouse Evaluation index.html](docs/screenshots/lighthouse-screenshot.jpg)
 
 ### Bug fixing
 
@@ -294,9 +305,12 @@ During end phases of programming, I sent a link to close friends and co-workers.
 
 * The images used are free-use images from the website "Pixabay." The various users allowed the usage as long as the image itself was not used for sale.
 * For various small programming details, the website "W3S-Schools" served as reference, especially regarding the style of frames as well as flexbox properties.
-* While the knowledge about Japanese language and culture stems mainly from my exchange year at Kanazawa University, general information about Torii Gates and the Inari can be found on Wikipedia. (Both webpages references external sources extensively, so it is as reliable as an open source can get.)
+* While the knowledge about Japanese language and culture stems mainly from my exchange year at Kanazawa University, general information about Torii Gates and the Inari can be found on Wikipedia. (Both webpages references external sources extensively, so it is as reliable as an open source can get.) The webpages in particular are:
+  * <https://en.wikipedia.org/wiki/Kitsune>
+  * <https://en.wikipedia.org/wiki/Torii>
 * While the phrasing and explanation of the Mnemonic techniques were written by myself, Nelson Dellis' "Memory Superpowers!: An Adventurous Guide to Remembering What You Don't Want to Forget" and Joshua Foer's "Moonwalking with Einstein: The Art and Science of Remembering Everything" serve as basis for all content regarding memory strategies.
-
+* Anthony Metivier's content on Youtube or his webpage "Magnetic Memory Method" are too advanced in their content to make use of for the website. However, as Mr Metivier inspired me for a long time, his work shall be noted as inspiration.
+  
 ## **Special Thanks to**
 
 * Richard Wells, my mentor who has had an open ear for all of my ideas and makes sure that I know exactly what I need to fix in my code.
