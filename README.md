@@ -16,7 +16,7 @@ As an educator, my goal has always been to provide my students with the most tho
 4. [Individual Page Features](#individual-page-features)
 5. [Testing](#testing)
 6. [Credits](#credits)
-7. [Special thanks to](#special-thanks-to)
+7. [Special Thanks to](#special-thanks-to)
 
 ## **General Description**
 
@@ -104,8 +104,6 @@ Checkbox
 * It is position to the right of the screen, where you would find the burger icon on other webpages.
 * The Torii enforces the visual imagery of the website, as the user would likely search for the menu in that area of the page.
 * it disappears on larger devices in order not to distract from the hero image.
-
-#### Navigation Bar
 
 Dropdown Menu (below 768px):
 
@@ -250,7 +248,7 @@ The simpler, but more effective solution would be to create form for each specif
 
 * The Story Method could be enhanced via the use of a website with a dedicated textarea. On this page, the user could mark keywords they would like to remember.
 * The Major Method would probably benefit from a table-like form, which assignes each number to a specific image or object. These items would be provided by the user.
-* The Mind Palace would require a huge
+* The Mind Palace would require a larger form which the user could customize to add specific locations, the number of items etc. While possible, it seems more practical to create a dedicated program for creating Mind Palaces instead.
 
 Another sensible addition would be the collaboration with experts from the field of Mnemonics. Content creators like Anthony Metivier have carved out a niche for Memory strategies on the web and display regular activity. With his or other Memory experts' approval, Memory Gates would share their content in video or audio format.
 For this change, a blog needs to be created, which contains updates, guest content to keep users informed about the Mnemonics community.
@@ -304,6 +302,7 @@ During end phases of programming, I sent a link to close friends and co-workers.
 ## **Credits**
 
 * The images used are free-use images from the website "Pixabay." The various users allowed the usage as long as the image itself was not used for sale.
+* The website ui.dev assisted in creating an image to show of the responsivity of the website.
 * For various small programming details, the website "W3S-Schools" served as reference, especially regarding the style of frames as well as flexbox properties.
 * While the knowledge about Japanese language and culture stems mainly from my exchange year at Kanazawa University, general information about Torii Gates and the Inari can be found on Wikipedia. (Both webpages references external sources extensively, so it is as reliable as an open source can get.) The webpages in particular are:
   * <https://en.wikipedia.org/wiki/Kitsune>
